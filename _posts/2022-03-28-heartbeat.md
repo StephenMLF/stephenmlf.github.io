@@ -4,7 +4,6 @@ title:  "Heartbeat"
 date:   2022-03-28 16:00:00 +0100
 categories: evolver
 ---
-
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 #Heartbeats
