@@ -38,6 +38,12 @@ remote_theme: "stephenmlf/jekyll-theme-console"
 # to add to main-dark.css
 # .special {font-size: 10px; line-height: 1 !important; font-family: monospace !important; overflow: hidden;}
 
+header_pages:
+  - index.md
+  - categories.md
+    
+style: dark
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

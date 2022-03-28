@@ -7,8 +7,7 @@ title: StephenMLF
 
 
 {% highlight shell %}
-sudo chmod 777
-
+$ figlet -f "DOS Rebel" "StephenMLF"
 
 {% endhighlight %}
 
