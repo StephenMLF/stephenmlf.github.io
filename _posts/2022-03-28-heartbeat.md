@@ -7,10 +7,16 @@ categories: evolver
 
 #Heartbeats
 
+With the timeline work last week done, the overview looks like this:
+
+<a href="/docs/assets/images/2022-03-25-timeline.png">
+<img src="/docs/assets/images/2022-03-25-timeline.png" width="600" alt="overview">
+</a>
+
 Began work to understand how to integrate the heartbeat into Evolver
 
 <a href="/docs/assets/images/2022-03-28-heartbeat.png">
-<img src="/docs/assets/images/2022-03-28-heartbeat.png" width="600" alt="alt txt">
+<img src="/docs/assets/images/2022-03-28-heartbeat.png" width="600" alt="heartbeat">
 </a>
 
 
