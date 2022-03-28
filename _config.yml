@@ -33,7 +33,10 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   - jemoji
-remote_theme: "b2a3e8/jekyll-theme-console"
+remote_theme: "stephenmlf/jekyll-theme-console"
+
+# to add to main-dark.css
+# .special {font-size: 10px; line-height: 1 !important; font-family: monospace !important; overflow: hidden;}
 
 # Exclude from processing.
 # The following items will not be processed, by default.
