@@ -5,6 +5,8 @@ date:   2022-03-29 11:00:00 +0100
 categories: evolver
 ---
 
+<meta property="og:image" content="/docs/assets/images/heartbeat/hb_init.png" />
+
 
 # More Heartbeats
 
@@ -55,7 +57,7 @@ Today, work on:
 
 ---
 
-Adding POST functionality to the `MLFHeartbeat.cs` class so that it can send the initial Heartbeat when a new `MLFGameClient` is made:
+🎉 Adding POST functionality to the `MLFHeartbeat.cs` class so that it can send the initial Heartbeat when a new `MLFGameClient` is made: 🎉
 
 <a href="/docs/assets/images/heartbeat/hb_init.png">
 <img src="/docs/assets/images/heartbeat/hb_init.png" width="600" alt="heartbeat">
