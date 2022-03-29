@@ -14,11 +14,13 @@ categories: evolver
 
 Today, work on:
 
-- [ ] Work on the C# classes:
+- Work on the C# classes:
   - [ ] `MLFHeartbeat.cs`
-    - [ ] Add GET functionality
+    - [x] Add POST functionality
   - [x] `MLFHttpParams.cs`
     - [x] Just use defaults in constructor for local testing
+  - [ ] `MLFGameClient.cs`
+    - [ ] Do something on receive HTTP 200 after initial Heartbeat
   - [x] `EClientState.cs`
     
 {% highlight csharp %}
@@ -31,10 +33,17 @@ Today, work on:
                         }
 {% endhighlight %}
    
-  - [ ] `MLFGameClient.cs`
-    - [ ] Do something on receive HTTP 200 after initial Heartbeat
-  - [ ] Work on the Python side:
+
+  - Work on the Python side:
     - [ ] `heartbeat.py`
     - [ ] `local_client.py`
     - [ ] HTTP needs to come through to game server to manage dictionary of `local_client`s
 
+
+---
+
+Adding POST functionality to the `MLFHeartbeat.cs` class so that it can send the initial Heartbeat when a new `MLFGameClient` is made:
+
+<a href="/docs/assets/images/heartbeat/hb_init.png">
+<img src="/docs/assets/images/heartbeat/hb_init.png" width="600" alt="heartbeat">
+</a>
