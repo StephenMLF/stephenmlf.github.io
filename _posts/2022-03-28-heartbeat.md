@@ -6,7 +6,7 @@ categories: evolver
 ---
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-#Heartbeats
+# Heartbeats
 
 With the timeline work last week done, the overview looks like this:
 
