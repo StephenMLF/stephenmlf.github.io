@@ -47,7 +47,7 @@ This can be simplified a bit, or broken down into different tasks:
 - [x] Make timebomb that can be called manually which removes clients
   - Testing passing the function through to the heartbeat to have a timebomb remove client from the dictionary: [https://www.mycompiler.io/view/GFgnwn7jOdB](https://www.mycompiler.io/view/GFgnwn7jOdB)
 - [x] Make timebomb functionality actually timer based
-  - [x] <a href="/docs/assets/images/heartbeat/hb_dict_server_side.png"><img src="/docs/assets/images/heartbeat/hb_dict_server_side.png" width="600" alt="timebomb"></a>
+<a href="/docs/assets/images/heartbeat/hb_dict_server_side.png"><img src="/docs/assets/images/heartbeat/hb_dict_server_side.png" width="600" alt="timebomb"></a>
 - [ ] Add zmq receiving and updating
 - [ ] Add zmq sending 
 - [ ] Add receiving to C# side
