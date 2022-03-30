@@ -24,9 +24,9 @@ i.e. The flow needs to be:
     - [x] client id 
     - [x] current heartbeat (see below)
     - [x] current state (init with `UNCALIBRATED`)
-    - [ ] and a zmq client
-    - [ ] function for binding to state messages from `MLFGameClient`
-    - [ ] function for sending current state over zmq
+    - [x] and a zmq client
+    - [x] function for binding to state messages from `MLFGameClient`
+    - [x] function for sending current state over zmq
     - [ ] function for updating the local client's heartbeat
   - [ ] and therefore needs to have a `heartbeat` class that contains
     - [x] client id
@@ -36,7 +36,7 @@ i.e. The flow needs to be:
     - [ ] function for updating heartbeat values
     - [ ] function for resetting timebomb (when a heartbeat is updated)
   - [x] and an `Enum` (matching C#) of the client states (see yesterday's post)
-- [ ] Python returns state of client; since it just made an entry, it will be its initialised value of `UNCALIBRATED`
+- [x] Python returns state of client; since it just made an entry, it will be its initialised value of `UNCALIBRATED`
 - [ ] `MLFGameClient` parses the result and updates its state according to the result
 
 
@@ -50,10 +50,19 @@ This can be simplified a bit, or broken down into different tasks:
 
 <a href="/docs/assets/images/heartbeat/hb_dict_server_side.png"><img src="/docs/assets/images/heartbeat/hb_dict_server_side.png" width="600" alt="timebomb"></a>
 
-- [ ] Add zmq receiving and updating
-- [ ] Add zmq sending 
-- [ ] Add receiving to C# side
-  - [ ] Receiving
+- [x] Add zmq receiving and updating
+- [x] Add zmq sending 
+- [x] Add receiving to C# side
+  - [x] Receiving
   - [ ] Parsing
   - [ ] Updating
 
+
+---
+
+Masses of progress! The server and client can now tell each other about states over ZMQ, after their initial communication over ZMQ (see video). When the timebomb is hit, a client is killed gracefully (unbinding) and removed from the dictionary.
+
+<video controls width="600">
+    <source src="/docs/assets/videos/2022-03-30 18-42-20-1.webm" 
+            type="video/webm">
+</video>
