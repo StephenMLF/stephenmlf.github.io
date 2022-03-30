@@ -32,7 +32,7 @@ i.e. The flow needs to be:
     - [x] client id
     - [x] 'delegate' for killing clients
     - [x] actual heartbeat values
-    - [ ] function for timebomb (countdown, after which delegate is fired with client id)
+    - [x] function for timebomb (countdown, after which delegate is fired with client id)
     - [ ] function for updating heartbeat values
     - [ ] function for resetting timebomb (when a heartbeat is updated)
   - [x] and an `Enum` (matching C#) of the client states (see yesterday's post)
@@ -46,7 +46,7 @@ This can be simplified a bit, or broken down into different tasks:
 - [x] Make some python classes that implement adding clients from heartbeat
 - [x] Make timebomb that can be called manually which removes clients
   - Testing passing the function through to the heartbeat to have a timebomb remove client from the dictionary: [https://www.mycompiler.io/view/GFgnwn7jOdB](https://www.mycompiler.io/view/GFgnwn7jOdB)
-- [ ] Make timebomb functionality actually timer based
+- [x] Make timebomb functionality actually timer based
 - [ ] Add zmq receiving and updating
 - [ ] Add zmq sending 
 - [ ] Add receiving to C# side
