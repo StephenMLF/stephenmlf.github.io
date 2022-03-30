@@ -44,7 +44,7 @@ i.e. The flow needs to be:
 
 This can be simplified a bit, or broken down into different tasks:
 - [x] Make some python classes that implement adding clients from heartbeat
-- [x] Make timebomb functionality to be called manually which removes clients
+- [x] Make timebomb that can be called manually which removes clients
   - Testing passing the function through to the heartbeat to have a timebomb remove client from the dictionary: [https://www.mycompiler.io/view/GFgnwn7jOdB](https://www.mycompiler.io/view/GFgnwn7jOdB)
 - [ ] Make timebomb functionality actually timer based
 - [ ] Add zmq receiving and updating
