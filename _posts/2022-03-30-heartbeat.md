@@ -38,3 +38,5 @@ i.e. The flow needs to be:
   - [x] and an `Enum` (matching C#) of the client states
 - [ ] Python returns state of client; since it just made an entry, it will be its initialised value of `UNCALIBRATED`
 - [ ] `MLFGameClient` parses the result and updates its state according to the result
+
+Testing passing the function through to the heartbeat to have a timebomb remove client from the dictionary: [https://www.mycompiler.io/view/GFgnwn7jOdB](https://www.mycompiler.io/view/GFgnwn7jOdB)
