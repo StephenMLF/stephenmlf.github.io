@@ -8,6 +8,8 @@ categories: evolver
 
 # Pulsating Hearts
 
+### AM update:
+
 [Yesterday had a great moment]({% post_url 2022-03-30-heartbeat %}) of completing the first back and forth between game client and server.
 
 <a href="/docs/assets/images/heartbeat/hb_comms.png">
