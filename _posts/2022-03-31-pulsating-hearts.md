@@ -38,8 +38,8 @@ Today, we need to add the 'process it further' bit to the C# side - adding Parsi
 - [x] Add zmq sending 
 - [x] Add receiving to C# side
   - [x] Receiving
-  - [ ] Parsing
-  - [ ] Updating
+  - [ ] ~~Parsing~~
+  - [x] Updating
 - [ ] **NEW:** Actually implement some kind of state machine so that e.g. when in `UNCALIBRATED` we can perform actions, like requesting the `calibration.json` via HTTP GET (as in diagram).
 
 ---
@@ -60,7 +60,7 @@ We also need to tick some more stuff off on the Python end, like updating the cu
     - [x] function for sending current state over zmq
     - [x] function for updating the local client's heartbeat
       - [x] this needs to be called when receiving heartbeat
-  - [ ] and therefore needs to have a `ClientHeartbeat` class that contains
+  - [x] and therefore needs to have a `ClientHeartbeat` class that contains
     - [x] client id
     - [x] 'delegate' for killing clients
     - [x] actual heartbeat values
@@ -69,11 +69,23 @@ We also need to tick some more stuff off on the Python end, like updating the cu
     - [x] function for resetting timebomb (when a heartbeat is updated)
   - [x] and an `Enum` (matching C#) of the client states
 - [x] Python returns state of client; since it just made an entry, it will be its initialised value of `UNCALIBRATED`
-- [ ] `MLFGameClient` parses the result and updates its state according to the result
+- [x] `MLFGameClient` parses the result and updates its state according to the result
 
 
 <video controls width="600">
     <source src="/docs/assets/videos/2022-03-31 11-52-00-1.webm" 
             type="video/webm">
 </video>
+
+### PM Update:
+
+Worked with Lucas on a super annoying bug that when we passed the state through as a reference, it did not update as it is an Enum. We had to solve this by adding a wrapper class for the enum, so that we are pointing at the class, and modifying its value instead of assigning a new Enum. 
+
+This means there is a stop-gap in the code right now, where when we serialise to JSON we serialise an Enum whose value is set by the current value of the one inside the wrapper class like so:
+
+<a href="/docs/assets/images/heartbeat/hb_stop_gap.png">
+<img src="/docs/assets/images/heartbeat/hb_stop_gap.png" width="600" alt="hb stop gap">
+</a>
+
+which is dumb and ugly. So I need to work out how to get Newtonsoft.JSON to serialise the class with the correct name as expected in the JSON at the other end.
 
