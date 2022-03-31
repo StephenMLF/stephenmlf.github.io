@@ -57,14 +57,21 @@ We also need to tick some more stuff off on the Python end, like updating the cu
     - [x] function for binding to state messages from `MLFGameClient`
     - [x] function for sending current state over zmq
     - [x] function for updating the local client's heartbeat
-      - [ ] this needs to be called when receiving heartbeat
+      - [x] this needs to be called when receiving heartbeat
   - [ ] and therefore needs to have a `ClientHeartbeat` class that contains
     - [x] client id
     - [x] 'delegate' for killing clients
     - [x] actual heartbeat values
     - [x] function for timebomb (countdown, after which delegate is fired with client id)
-    - [ ] function for updating heartbeat values
-    - [ ] function for resetting timebomb (when a heartbeat is updated)
+    - [x] function for updating heartbeat values
+    - [x] function for resetting timebomb (when a heartbeat is updated)
   - [x] and an `Enum` (matching C#) of the client states
 - [x] Python returns state of client; since it just made an entry, it will be its initialised value of `UNCALIBRATED`
 - [ ] `MLFGameClient` parses the result and updates its state according to the result
+
+
+<video controls width="600">
+    <source src="/docs/assets/videos/2022-03-31 11-52-00-1.webm" 
+            type="video/webm">
+</video>
+
