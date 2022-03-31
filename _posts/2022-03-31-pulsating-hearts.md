@@ -96,3 +96,12 @@ Had to add a custom serialiser for just that one property as below, so the sent 
 <a href="/docs/assets/images/heartbeat/hb_custom_json.png">
 <img src="/docs/assets/images/heartbeat/hb_custom_json.png" width="600" alt="hb custom json">
 </a>
+
+
+### EOD Update:
+
+TODO: Tomorrow I need to somehow fix this issue where _sometimes_ the C# seemingly causes repeated construction of the game client over and over instead of making one and working correctly. Is this a threading issue, given that it only happens _sometimes_?
+
+<a href="/docs/assets/images/heartbeat/hb_sub_error.png">
+<img src="/docs/assets/images/heartbeat/hb_sub_error.png" width="600" alt="hb sub error">
+</a>
