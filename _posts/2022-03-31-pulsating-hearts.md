@@ -89,3 +89,10 @@ This means there is a stop-gap in the code right now, where when we serialise to
 
 which is dumb and ugly. So I need to work out how to get Newtonsoft.JSON to serialise the class with the correct name as expected in the JSON at the other end.
 
+### Added custom serialisation:
+
+Had to add a custom serialiser for just that one property as below, so the sent packet looks exactly the same as before:
+
+<a href="/docs/assets/images/heartbeat/hb_custom_json.png">
+<img src="/docs/assets/images/heartbeat/hb_custom_json.png" width="600" alt="hb custom json">
+</a>
