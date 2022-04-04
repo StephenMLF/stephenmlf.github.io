@@ -18,3 +18,4 @@ From [yesterday]({% post_url 2022-03-31-pulsating-hearts %}): I need to fix this
 
 I'll also only be working for the morning before going into the studio where we have a big Q1/Q2 meeting, so may not get masses done.
 
+### PM update: Helped Nils with React at the studio instead.
