@@ -34,6 +34,9 @@ In images:
 2. When the client initialises, it sets its little internal C# timer going, firing off heartbeat messages; the first response it gets after the server has made an entry for it sets the MlfGameClient's internal state to `UNCALIBRATED` , which it then uses for sending the further Heartbeats, as can be seen below #2 in the image (i.e. the MLFGameClient's internal state is already correctly set at this point)
 3. It takes until the whole patch boots up for the Observable to give the correct response, at which point it triggers and does its thing, but loooong after it's been set to `UNCALIBRATED` , meaning many heartbeat messages later.
 
+
 Questions:
 1. `@vvvv gang`: Under the hood, C# is ready and rolling with its HTTP response, parsing and modifications to client state, is there a way this can report in this reactive way sooner than when initial boot is finished? Am I even doing it correctly as pictured?
 2. `@Lucas Moskun`: How much does this matter? We send a lot of heartbeats in that time, and an unknown number, but when will we progress to the next state? Are we planning only to request the calibration data from within vvvv after the patch has booted? What will trigger the next state change? Seems this could be really problematic if it's under the hood in C# or Python to me, but otherwise maybe not?
+
+To be continued tomorrow...
