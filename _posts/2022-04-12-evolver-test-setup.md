@@ -1,29 +1,16 @@
 ﻿---
 layout: post
-title:  "Test Setup"
-date:   2022-04-11 09:00:00 +0100
+title:  "IK 🐇 Hole"
+date:   2022-04-12 09:00:00 +0100
 categories: evolver
 ---
 
+# 🦾🐰 IK
 
-# h1
+### AM Update
 
-test styling
+Given yesterday's tests seemed to run in the studio OK, it's time to check out the IK stuff properly. 
 
-## h2
-
-test styling
-
-### h3
-
-test styling
-
-#### h4
-
-test styling
-
-##### h5
-
-test styling
+Christian mentioned the fact that some IK matrices are only being applied when the patch has connection to the game server, so that's the first port of call.
 
 
