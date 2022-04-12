@@ -8,8 +8,6 @@ categories: evolver
 
 # Test Setup
 
-### AM Update:
-
 Supporting Nils with getting Evolver set up in the studio for tests later this week. Took a little minute to get set up myself after being on annual leave last week.
 
 We immediately hit
@@ -35,3 +33,6 @@ from an answer [here](https://stackoverflow.com/questions/56016033/adding-missin
 
 Got things up and running on my end (remote working in Poland on an underpowered laptop, so hopefully won't need to run the main patch too often), and will see if other issues arise that need taking care of when running `develop` of all repos.
 
+This afternoon, I spoke to Sebastian and began to start reading the class that makes up the Evolver Tracking Data to see if I could help with IK in any way. There is also a deep section of the patch to get familiar with. 
+
+Sebastian set me the challenge of working out why the Audience Matrix is not being applied correctly... down the rabbit hole I go.
