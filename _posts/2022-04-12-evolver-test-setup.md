@@ -17,7 +17,7 @@ Christian mentioned the fact that some IK matrices are only being applied when t
 
 Worked with Sebastian to implement two elements of robustness to the `TrackingSystem`.
 
-First, I added a fallback/default `calibration.json` that would mean we have something to work with even if we can't GET the file from the gttp server. When the GET _does_ complete, we switch to using that data instead. 
+First, I added a fallback/default `calibration.json` that would mean we have something to work with even if we can't GET the file from the http server. When the GET _does_ complete, we switch to using that data instead. 
 
 <a href="/docs/assets/images/ik/ik-1.png">
 <img src="/docs/assets/images/ik/ik-1.png" width="600" alt="ik">
@@ -53,3 +53,13 @@ Next, we made it so that every user has an `Audience Transform Matrix` by moving
 <img src="/docs/assets/images/ik/ik-6.png" width="600" alt="ik">
 </a>
 
+
+### Bugfix
+
+Spent a long time debugging why these minor changes caused a significant CPU load vs Sebastian's branch. 
+
+Ultimately, I had at some stage moved all the MLFGameClient creation into an `If` loop, and then back out which had forced all the nodes into `Update` instead of `Create` meaning we were creating a new MLFGameClient every frame.
+
+<a href="/docs/assets/images/ik/ik-7.png">
+<img src="/docs/assets/images/ik/ik-7.png" width="600" alt="ik">
+</a>
