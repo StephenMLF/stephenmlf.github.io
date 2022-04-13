@@ -24,3 +24,19 @@ Merging vvvv files sucks. After spending all morning trying to merge `develop` i
 Just finished recreating _only_ the Audience Matrix Transform stuff (so all yesterday's work) in a new branch off develop, so we can isolate it from the IK stuff. Nils will test... Still haven't been able to test multiplayer.
 
 Thankfully, the demos scheduled for tomorrow in the studio have been cancelled, so the pressure is more to deliver the audience transform work in a way that means Natan can use it.
+
+### Post test update #1:
+
+The merge _finally_ went well, we have an operational Audience Matrix Transform on top of develop, waiting for multiplayer tests to merge back up.
+
+### Post test update #2:
+
+Players still coming in as smushed sticks instead of characters.
+
+### Fixed!
+
+The UpdateJointsFromJSON method was using the head data to update the positions of all three joints, so changed it to actually use `"hdTransform"`, `"lhTransform"` AND `"rhTransform"`, instead of just the first one.
+
+Nils then tested this and verified that we are getting networked player locations coming through as expected.
+
+Meanwhile, Sebastian is getting ever closer to an MVP with elbows...
