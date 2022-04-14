@@ -14,7 +14,7 @@ Effectively, we need to synchronise the IDs the game client is using for communi
 We need to do something like this:
 
 <a href="/docs/assets/images/ids/ids.png">
-<img src="/docs/assets/images/ik/ids.png" width="600" alt="ids">
+<img src="/docs/assets/images/ids/ids.png" width="600" alt="ids">
 </a>
 
 During lots of head scratching, we moved all of the things to do with Client IDs up to the Network level instead of within TrackingData.
@@ -22,7 +22,7 @@ During lots of head scratching, we moved all of the things to do with Client IDs
 This whole process took pretty much the whole day, but the result is the following:
 
 <a href="/docs/assets/images/ids/id-sync.png">
-<img src="/docs/assets/images/ik/id-sync.png" width="600" alt="id-sync">
+<img src="/docs/assets/images/ids/id-sync.png" width="600" alt="id-sync">
 </a>
 
 - vvvv GET requests an ID from the server, reported back in the console (`2` in image)
