@@ -26,7 +26,9 @@ $ figlet -f "DOS Rebel" "StephenMLF"
                            ░░░░░                                                                  
 </pre>
 
+
 -------------
 
-
-All posts:
+{% highlight sql %}
+SELECT * FROM journal_posts WHERE published=true order by created_at DESC
+{% endhighlight %}
