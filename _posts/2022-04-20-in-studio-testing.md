@@ -13,5 +13,7 @@ Today's task will depend on how this morning goes, trying to set up and test mul
 
 ### PM Update
 
-The utesting went 
+The testing went fairly well, but we ran into an issue where headsets were receiving the wrong streams from ALVR. Managed to get 4 streaming correctly, and 2 had mixed up streams and latency.
+
+Spent a hideous amount of time in vvvv that was effectively one line of code in C#: switching users IDs to be IPs
 
