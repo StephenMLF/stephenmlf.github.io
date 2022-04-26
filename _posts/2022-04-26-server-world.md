@@ -35,3 +35,12 @@ categories: evolver
   - [x] Force all clients states > `POST` > `/State/ForceStateAllClients`
   - [x] Force one clients state > `POST` > `/State/ForceStateClient`
 - [x] Adding logic for the above to the `MLFGameClient` C# class, including forcing state callback
+
+### PM Update
+
+Lucas did a buuuunch of work to fix up the FastAPI to use background tasks, and to read/write from cache memory. This included a huge refactoring and we are now not using the `heartbeat.py` file.
+
+Managed to merge this work with the above so that we have API call functions for the operations on each client.
+
+Also had a call with Seb to talk about timeline coming through from the server to Unity, to vvvv... hopefully we can now have them communicate correctly
+- [ ] Make `TimeState` Observable in vvvv
