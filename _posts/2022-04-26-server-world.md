@@ -26,11 +26,12 @@ categories: evolver
 ### Today
 
 - [x] State Controls
-  - [x] Send all to Lobby > POST > /State/LobbyAllClients
-  - [x] Send Client to Lobby  > POST > /State>LobbyClient
-  - [x] Start all clients > POST > /State/StartAllClients 
-  - [x] Start one client > POST > /State/StartClient 
-  - [x] Emergency all > POST > /State/EmergencyAllClients 
-  - [x] Emergency client > POST > /State/EmergencyClient 
-  - [x] Force all clients states > POST > /State/ForceStateAllClients 
-  - [x] Force one clients state > POST > /State/ForceStateClient 
+  - [x] Send all to Lobby > `POST` > `/State/LobbyAllClients`
+  - [x] Send Client to Lobby  > `POST` > `/State>LobbyClient`
+  - [x] Start all clients > `POST` > `/State/StartAllClients`
+  - [x] Start one client > `POST` > `/State/StartClient`
+  - [x] Emergency all > `POST` > `/State/EmergencyAllClients`
+  - [x] Emergency client > `POST` > `/State/EmergencyClient`
+  - [x] Force all clients states > `POST` > `/State/ForceStateAllClients`
+  - [x] Force one clients state > `POST` > `/State/ForceStateClient`
+- [x] Adding logic for the above to the `MLFGameClient` C# class, including forcing state callback
