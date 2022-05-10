@@ -16,4 +16,4 @@ Went through headsets one by one with Nils, observed on some and not on others.
 
 Tried to remedy by reinstalling ALVR on each headset and accompanying machine with seemingly some success, but it turned out to be a big fat hoax.
 
-Much more information in Slack in the ["mega-thread here"](https://marshmallowlf.slack.com/archives/C0325K90HEE/p1652087837810679)
+Much more information in Slack in the ["mega-thread" here](https://marshmallowlf.slack.com/archives/C0325K90HEE/p1652087837810679)

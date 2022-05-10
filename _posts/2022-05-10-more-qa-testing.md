@@ -36,3 +36,4 @@ Managed also to test Sebastian's work:
 - Spent some time with Nils mapping the playspace in the studio, and then transferring to vvvv Seb's Calibration tool
 - This meant we got `calibration.json` info for the position of the pillar and also the outline of the space
 - Verified that we could trigger them by having our heads/hands collide with their edges
+- [Video showing using those boundaries to not collide with pillar or playspace ](https://marshmallowlf.slack.com/archives/C0325K90HEE/p1652194525484589)
