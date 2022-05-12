@@ -19,3 +19,10 @@ Testing:
 - [x] Guardian mode works with this, too!
 
 Video(s) of this working posted [on Slack](https://marshmallowlf.slack.com/archives/C0325K90HEE/p1652266604358949)
+
+### EOD
+
+- Tested subpack audio which worked well, especially in the heart
+- Installed two IR lights in the ceiling of the studio playspace
+- Added `hmd_07` to IP table and updated gameserver/controller
+- 
