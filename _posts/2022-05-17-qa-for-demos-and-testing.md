@@ -7,9 +7,15 @@ categories: evolver
 
 # QA for demos and testing
 
-|Category|Task/Test|Description|Verified| 
+### AM Update
+
+Moved all the servers into new racks and rewired them. Pulled `feature/studio-testing` and checked that Sebastian's smoothing of skeletons worked - it did and it makes a huge difference!
+
+Setting up QA structure and tasks that need to be completed. Also on Notion [here](https://www.notion.so/marshmallowlaserfeast/17-05-2022-e1eb36587ae34b50a7c8690dc62ed926).
+
+|Category|Task/Test|Description|Verified|
 | --- | --- | --- | ---|
-|**Timeline**|Timeline Completed| Make it through the entire timeline|P|
+|**Timeline**|Timeline Completed| Make it through the entire timeline|:heavy_check_mark:|
 | |Timeline Sync|All headsets see same timeline events||
 |**Particles**|Qi Particles|Visible and working as intended||
 | |Particles interactable|Hand movements can influence particles||
@@ -26,7 +32,4 @@ categories: evolver
 | |Startup client|Startup scripts for client machines||
 | |Startup server|Startup for server/docker container||
 |**Quality**|ALVR Settings|Optimise quality vs performance settings|| 
-
-
-
 
