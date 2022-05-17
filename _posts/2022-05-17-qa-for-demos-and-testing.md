@@ -15,7 +15,7 @@ Setting up QA structure and tasks that need to be completed. Also on Notion [her
 
 |Category|Task/Test|Description|Verified|
 | --- | --- | --- | ---|
-|**Timeline**|Timeline Completed| Make it through the entire timeline|:heavy_check_mark:|
+|**Timeline**|Timeline Completed| Make it through the entire timeline|✔✅✔|
 | |Timeline Sync|All headsets see same timeline events||
 |**Particles**|Qi Particles|Visible and working as intended||
 | |Particles interactable|Hand movements can influence particles||
