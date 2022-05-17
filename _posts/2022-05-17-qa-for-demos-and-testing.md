@@ -1,7 +1,8 @@
 ﻿---
 layout: post 
 title:  "QA for demos and testing"
-date:   2022-05-17 09:00:00 +0100 categories: evolver
+date:   2022-05-17 09:00:00 +0100 
+categories: evolver
 ---
 
 # QA for demos and testing
