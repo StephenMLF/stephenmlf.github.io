@@ -2,7 +2,7 @@
 layout: post 
 title:  "Unreal Dream Talk"
 date:   2022-06-27 09:00:00 +0100 
-categories: unreal
+categories: [unreal, dream]
 ---
 
 # Unreal Dream Talk
