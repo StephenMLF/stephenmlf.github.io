@@ -35,4 +35,4 @@ Though this is designed as a general AI capable of style transfer, its movement 
 <img src="/docs/assets/images/atcq-r-d/steve-biko.png" width="600" alt="stylegan-nada steve">
 </a>
 
-These results are after 250 iterations, it took about 400 to reach something more passable, but still skin tone was a problem for a GAN whose dataset is largely trained on Caucasian people.
+These results are after 250 iterations, it took about 400 to reach something more passable, but still transitioning skin tone was a problem for a GAN whose dataset is largely trained on Caucasian people.
