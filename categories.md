@@ -7,13 +7,15 @@ sitemap: false
 
 <div>
     {% assign categories = site.categories | sort %}
+    <ul class="columns">
     {% for category in categories %}
-        <span class="site-tag">
+        <li>
             <a href="#{{ category | first | slugify }}">
-                    {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
+                    <code>{{ category[0] | replace:'-', ' ' }}</code> ({{ category | last | size }})
             </a>
-        </span>
+        </li>
     {% endfor %}
+    </ul>
 </div>
 
 <div id="index">
@@ -23,8 +25,10 @@ sitemap: false
         {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
         {% for post in sorted_posts %}
             {%if post.categories contains category[0]%}
-                <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} <p class="date">{{ post.date |  date: "%B %e, %Y" }}</p></a></h3>
-
+                <li>
+                      {%- assign date_format = "%Y-%m-%d" -%}
+                        [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </li>
             {%endif%}
         {% endfor %}
     {% endfor %}
