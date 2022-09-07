@@ -2,7 +2,7 @@
 layout: post 
 title:  "Pivot to Evolver in UE"
 date:   2022-09-05 09:00:00 +0100 
-categories: [unreal, atcq]
+categories: [unreal]
 ---
 
 Big news followed by slow news day: ATCQ might be cancelled, so work is paused on it for now.
