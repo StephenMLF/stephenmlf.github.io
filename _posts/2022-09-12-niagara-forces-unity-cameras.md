@@ -7,6 +7,8 @@ categories: [unreal, unity, niagara]
 
 ## Influencing Niagara
 
+{% include googleDrivePlayer.html id=1H8XM0arRUoaVDsCwOV040i3dH3Qktk32/preview %}
+
 Managed to get an external actor to influence Niagara systems of two different kinds [[VIDEO](https://drive.google.com/file/d/1H8XM0arRUoaVDsCwOV040i3dH3Qktk32/view?usp=sharing)]:
 - The tornado is the spline following system which is lerping between sticking directly to the splines and a noise-influenced position; the RightHandSphere object is the position for a point force on the system, and the particles move back nice and smoothly when the force no longer impacts them.
 - The orange sphere is a Niagara system where particles update their positions based on a baked point cache from Houdini, meaning they are sticking to where they are told to be pretty religiously. As a result, after the RightHandSphere interacts with them in the same way, they move back to their positions from the point cache a little less 'naturally'.
