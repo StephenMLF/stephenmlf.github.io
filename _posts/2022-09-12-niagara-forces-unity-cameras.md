@@ -7,6 +7,7 @@ categories: [unreal, unity, niagara]
 
 ## Influencing Niagara
 
+
 {% include googleDrivePlayer.html id='1H8XM0arRUoaVDsCwOV040i3dH3Qktk32/preview' %}
 
 Managed to get an external actor to influence Niagara systems of two different kinds [[VIDEO](https://drive.google.com/file/d/1H8XM0arRUoaVDsCwOV040i3dH3Qktk32/view?usp=sharing)]:
