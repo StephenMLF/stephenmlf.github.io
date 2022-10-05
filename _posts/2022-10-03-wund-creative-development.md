@@ -1,6 +1,6 @@
 ﻿---
 layout: post 
-title:  "WUND Creative Development #05"
+title:  "WUND: FBX to Sphere Unit Sculptures"
 date:   2022-10-03 09:00:00 +0100 
 categories: [wund, houdini]
 ---
@@ -8,10 +8,10 @@ categories: [wund, houdini]
 ## FBX to Sphere Unit Sculptures
 
 ### Links
-- https://www.youtube.com/watch?v=aOisEGCA3zk
-- https://www.youtube.com/watch?v=3wqpHCgrS8g
-- https://www.youtube.com/watch?v=3nA72vbMOqY
-- https://www.youtube.com/watch?v=pDBGlhNC9aY
+- [https://www.youtube.com/watch?v=aOisEGCA3zk](https://www.youtube.com/watch?v=aOisEGCA3zk)
+- [https://www.youtube.com/watch?v=3wqpHCgrS8g](https://www.youtube.com/watch?v=3wqpHCgrS8g)
+- [https://www.youtube.com/watch?v=3nA72vbMOqY](https://www.youtube.com/watch?v=3nA72vbMOqY)
+- [https://www.youtube.com/watch?v=pDBGlhNC9aY](https://www.youtube.com/watch?v=pDBGlhNC9aY)
 
 {% highlight c %}
 float small = 0.5;
