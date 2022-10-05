@@ -1,6 +1,6 @@
 ﻿---
 layout: post 
-title:  "WUND Creative Development #05"
+title:  "WUND: Customising Sphere Scattering & Growth"
 date:   2022-10-04 09:00:00 +0100 
 categories: [wund, houdini]
 ---

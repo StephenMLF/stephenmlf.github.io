@@ -7,13 +7,22 @@ categories: [wund, houdini]
 
 ## FBX to Sphere Unit Sculptures
 
+### Discussions/Process Documentation
+
+- [Spheres describing a tree](https://marshmallowlf.slack.com/archives/C041S7UBAEL/p1664808260543719)
+
 ### Links
+
 - [https://www.youtube.com/watch?v=aOisEGCA3zk](https://www.youtube.com/watch?v=aOisEGCA3zk)
 - [https://www.youtube.com/watch?v=3wqpHCgrS8g](https://www.youtube.com/watch?v=3wqpHCgrS8g)
 - [https://www.youtube.com/watch?v=3nA72vbMOqY](https://www.youtube.com/watch?v=3nA72vbMOqY)
 - [https://www.youtube.com/watch?v=pDBGlhNC9aY](https://www.youtube.com/watch?v=pDBGlhNC9aY)
 
-{% highlight c %}
+### VEX Snippet
+
+This snippet uses existing convexity (curvature) to select between different sphere sizes:
+
+{% highlight cpp %}
 float small = 0.5;
 float medium = 0.75;
 float large = 1;
@@ -29,5 +38,3 @@ else {
 }
 {% endhighlight %}
 
-### Discussions/Process Documentation
-- https://marshmallowlf.slack.com/archives/C041S7UBAEL/p1664808260543719 
