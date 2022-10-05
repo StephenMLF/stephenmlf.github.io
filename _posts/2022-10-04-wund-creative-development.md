@@ -22,7 +22,9 @@ categories: [wund, houdini]
 - Global control of size of all units
 - (FBX Export of resulting geometry)
  
-[Discussion #1](https://marshmallowlf.slack.com/archives/C041S7UBAEL/p1664899545383679)
+### PM Update
+
+[Discussion #2](https://marshmallowlf.slack.com/archives/C041S7UBAEL/p1664899545383679)
 Process:
 1. Generate/use reference Geometry (pictured is just a sphere-y thing)
 2. Grow branches according to reference geometry
